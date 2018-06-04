@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-lambda-middleware",
+  "version": "1.0.0",
+  "description": "A simple middleware framework for AWS lambda written in Nodejs. This is not published as a library but it is intended to serve as an example if you want create your own middlewares.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/unit/**/*.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siroop-ch/nodejs-lambda-middleware.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siroop-ch/nodejs-lambda-middleware/issues"
+  },
+  "homepage": "https://github.com/siroop-ch/nodejs-lambda-middleware#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-es-beautifier": "^1.0.1",
+    "eslint-plugin-import": "^2.12.0",
+    "sinon": "^5.0.10",
+    "tap": "^12.0.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.250.1",
+    "ramda": "^0.25.0",
+    "raven": "^2.6.2"
+  }
+}
