@@ -83,4 +83,4 @@ const Middleware1 = () => {
 }
 ```
 
-Refer [examples](./test/unit/with-middlewares-examples.test.js) for more information.
+Refer [examples](./test/unit/middlewares/with-middlewares-examples.test.js) for more information.
